@@ -1,0 +1,56 @@
+
+
+##각자 지정된 플랫폼을 처리해주십시요.
+#네이버쇼핑(민우), 쿠팡(우석), 11번가(환욱), g마켓(정문)
+
+
+##카테고리는 아래 6개로 분류
+#패션
+#뷰티(화장품)
+#가구/인테리어
+#가전/디지털
+#식품
+#여행
+
+
+//*[@id="content"]/div[1]/div[2]/div/div[4]/div/div/div[2]/div[1]/a
+
+//*[@id="content"]/div[1]/div[2]/div/div[5]/div/div/div[2]/div[1]/a
+
+
+
+Fashion - W
+https://www.coupang.com/np/categories/186764?page=1
+Fashion - M
+https://www.coupang.com/np/categories/187069
+unisex
+https://www.coupang.com/np/categories/502993
+baby
+https://www.coupang.com/np/categories/213201
+
+beuaty
+https://www.coupang.com/np/categories/176522
+
+food
+https://www.coupang.com/np/categories/194276
+
+furniture
+https://www.coupang.com/np/categories/184555
+//*[@id="7401221817"]/a/dl/dd/div[2]
+
+Digital
+https://www.coupang.com/np/categories/178255
+//*[@id="7657895073"]/a/dl/dd/div[2]
+//*[@id="7675416017"]/a/dl/dd/div[2]
+//*[@id="7273435776"]/a/dl/dd/div[2]/text()
+//*[@id="6944437759"]/a/dl/dd/div[2]
+//*[@id="7310966582"]/a/dl/dd/div[2]
+
+/html/body/div[3]/section/form/div/div/div[1]/div[6]/ul/li[2]/a/dl/dd/div[2]
+/html/body/div[3]/section/form/div/div/div[1]/div[6]/ul/li[4]/a/dl/dd/div[2]
+/html/body/div[3]/section/form/div/div/div[1]/div[6]/ul/li[24]/a/dl/dd/div[2]
+
+
+Travel
+
+/html/body/div[2]/section/div/div/section[5]/div/div[2]/ul/li[11]/a/div[2]/div[1]
