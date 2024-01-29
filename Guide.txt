@@ -52,5 +52,6 @@ https://www.coupang.com/np/categories/178255
 
 
 Travel
-
+https://trip.coupang.com/tp/categories/396470
+https://trip.coupang.com/tp/categories/396470?channel=travelHomeGateway&q=
 /html/body/div[2]/section/div/div/section[5]/div/div[2]/ul/li[11]/a/div[2]/div[1]
