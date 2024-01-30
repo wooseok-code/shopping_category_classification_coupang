@@ -53,7 +53,7 @@ preds = model.predict(x_pad)
 predicts = []
 for pred in preds:
     most = label[np.argmax(pred)]
-    # pred[np.argmax(pred)] = 0
+    pred[np.argmax(pred)] = 0
     second = label[np.argmax(pred)]
     predicts.append([most, second])
 df['predict'] = predicts
@@ -64,6 +64,14 @@ df['OX'] = 0
 for i in range(len(df)):
     if df.loc[i, 'category'] in df.loc[i, 'predict']:
         df.loc[i, 'OX'] = 'O'
-    else : df.loc[i, 'OX'] = 'X'
+    else :
+        df.loc[i, 'OX'] = 'X'
+        print(df.loc[i])
+        # print(df.loc[i,'category'])
+        # print(df.loc[i,'predict'])
+
+
+
+#evaluate
 print(df['OX'].value_counts())
 print(df['OX'].value_counts()/len(df))
