@@ -38,6 +38,7 @@ for j in range(len(X)):
     X[j] = ' '.join(words)
 # print(X[:5])
 with open('./models/news_token.pickle', 'rb') as f:
+# with open('./models/news_token.pickle', 'rb') as f:
     token = pickle.load(f)
 tokened_x = token.texts_to_sequences(X)
 for i in range(len(tokened_x)):
@@ -47,13 +48,15 @@ print(tokened_x)
 
 x_pad = pad_sequences(tokened_x, 27)
 
+# model = load_model('./models/last_classification_model_0.969865620136261.h5')
 model = load_model('./models/coupang_classification_model_0.9312499761581421.h5')
+# model = load_model('./models/11st_classification_model_0.932539701461792.h5')
 preds = model.predict(x_pad)
 
 predicts = []
 for pred in preds:
     most = label[np.argmax(pred)]
-    pred[np.argmax(pred)] = 0
+    # pred[np.argmax(pred)] = 0
     second = label[np.argmax(pred)]
     predicts.append([most, second])
 df['predict'] = predicts

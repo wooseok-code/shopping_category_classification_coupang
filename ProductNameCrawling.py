@@ -48,7 +48,7 @@ driver = webdriver.Chrome(service=service, options=options)  # <- options로 변
 pages = [17, 17, 17, 17, 17, 17]
 df_titles = pd.DataFrame()
 
-urlFashion = 'https://www.coupang.com/np/categories/186764'
+urlFasmmhion = 'https://www.coupang.com/np/categories/186764'
 urlBeauty = 'https://www.coupang.com/np/categories/176522'
 urlFood = 'https://www.coupang.com/np/categories/194276'
 urlTravel = 'https://trip.coupang.com/tp/categories/396470'
